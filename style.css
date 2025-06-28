@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #fff;
+  color: #c2185b;
+}
+
+header {
+  background: linear-gradient(90deg, #f8bbd0 0%, #f06292 100%);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  position: relative;
+}
+
+.menu-icon {
+  font-size: 2rem;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Segoe Script', cursive, sans-serif;
+  letter-spacing: 2px;
+}
+
+.side-menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background: #f8bbd0;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+}
+
+.side-menu a {
+  padding: 12px 32px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #ad1457;
+  display: block;
+  transition: 0.2s;
+}
+
+.side-menu a:hover {
+  background: #f06292;
+  color: #fff;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 2rem;
+  color: #ad1457;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+}
+
+h2 {
+  color: #ad1457;
+}
+
+.productos {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.producto {
+  background: #fff0f6;
+  border: 1px solid #f8bbd0;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 8px #f8bbd088;
+}
+
+.producto img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
